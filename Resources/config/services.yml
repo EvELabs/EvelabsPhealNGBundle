@@ -1,0 +1,7 @@
+parameters:
+  evelabs_pheal.factory.class: Evelabs\PhealNGBundle\Pheal\PhealFactory
+  evelabs_pheal.logger:       "logger"
+
+services:
+    evelabs.pheal_factory:
+        class: "%evelabs_pheal.factory.class%"

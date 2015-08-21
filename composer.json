@@ -1,0 +1,36 @@
+{
+  "name":        "evelabs/phealng-bundle",
+  "type":        "symfony-bundle",
+  "description": "Integrates PhealNG library into Symfony2.",
+  "keywords":    [
+    "eveonline",
+    "pheal",
+    "mmo",
+    "library",
+    "eve-online",
+    "api"
+  ],
+  "homepage":    "http://github.com/EvELabs/EvelabsPhealNGBundle",
+  "license":     "MIT",
+
+  "authors": [
+    {
+      "name": "Oleg Krasavin",
+      "email": "okwinza@gmail.com"
+    }
+  ],
+
+  "require": {
+    "php":                          ">=5.4",
+    "symfony/framework-bundle":     ">=2.4",
+    "symfony/yaml": ">=2.3"
+  },
+
+  "autoload": {
+    "psr-0": {
+      "Evelabs\\PhealNGBundle\\": ""
+    }
+  },
+
+  "target-dir": "Evelabs/PhealNGBundle"
+}
